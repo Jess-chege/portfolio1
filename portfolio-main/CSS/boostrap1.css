@@ -1,0 +1,81 @@
+.navbar{ 
+    background-color: rgb(165, 165, 190); 
+} 
+
+.nav-link{ 
+    margin-right: 1em !important;
+}
+
+.nav-link, .navbar-brand{ 
+    color:white; 
+    transition: 500ms; 
+} 
+
+.nav-link .a:hover{
+    color:brown; 
+    background: white; 
+} 
+
+/* header css */ 
+
+.header{ 
+    position: relative;
+    /* background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg); */
+    background-position: center; background-size: cover; 
+} 
+
+.header video{ 
+    position:absolute;
+    top: 0; 
+    left: 0; 
+    width:100%;
+    height:100%; 
+    opacity: 0.5; 
+    object-fit: cover; 
+}
+
+.overlay {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    min-height:100%; 
+    min-width: 100%; 
+    /* opacity:0.5;  */
+    background: rgb(17, 11, 3); 
+    mix-blend-mode: darken; 
+} 
+
+.description { 
+    position: absolute; 
+    top: 30%; 
+    margin: auto; 
+    padding: 2em; /* left: 10%; */ 
+} 
+
+.description h1{ 
+    color: white; 
+}
+
+.description p{ 
+    color: white; 
+    font-size: 1.1em; 
+    font-weight:bold; 
+    width: 90%; 
+    line-height: 1.5; 
+}
+
+.description button{ 
+    border:greenyellow;
+    background: greenyellow; 
+    color: white; 
+}
+
+ 
+<!--
+Visual Code Mobile
+Developed By Manish Nirmal
+App Available on Play Store :-
+https://play.google.com/store/apps/details?id=lk.visual.code.mobile
+YouTube :-
+https://youtube.com/ManishNirmal
+-->
